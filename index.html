@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title data-i18n="meta_home_title">VELURA — Interactive WebGL & 3D Web Experiences</title>
+  <meta name="description" data-i18n="meta_home_desc" content="Custom WebGL and 3D websites engineered for speed, precision, and visual depth." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand" aria-label="Home">VELURA<span class="dot">.</span></a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html" class="active-link" data-i18n="nav_models">Models</a>
+        <a href="tecnologia.html" data-i18n="nav_tech">Technology</a>
+        <a href="contato.html" data-i18n="nav_contact">Contact</a>
+
+        <div class="lang-switch" role="group" aria-label="Language selector">
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true" title="English">
+            <span class="flag" aria-hidden="true">🇺🇸</span><span>EN</span>
+          </button>
+          <button type="button" class="lang-btn" data-lang="es" aria-pressed="false" title="Español">
+            <span class="flag" aria-hidden="true">🇪🇸</span><span>ES</span>
+          </button>
+          <button type="button" class="lang-btn" data-lang="pt" aria-pressed="false" title="Português (Brasil)">
+            <span class="flag" aria-hidden="true">🇧🇷</span><span>PT</span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <span class="eyebrow" data-i18n="hero_eyebrow">WebGL · Interactive 3D · Performance</span>
+      <h1 data-i18n="hero_title">Interfaces with real depth.</h1>
+      <p class="hero-sub" data-i18n="hero_sub">
+        We design and engineer custom web experiences with real-time 3D rendering, minimalist clarity, and fast loading across desktop and Apple devices.
+      </p>
+      <div class="hero-actions">
+        <a href="#models" class="btn-primary" data-i18n="hero_btn_models">View Models</a>
+        <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" class="btn-secondary" data-i18n="hero_btn_wa">Request Quote on WhatsApp</a>
+      </div>
+    </section>
+
+    <section id="models" class="showcase container">
+      <div class="section-header">
+        <h2 data-i18n="show_title">Selected Models</h2>
+        <p data-i18n="show_sub">Click any rounded quadrant to inspect the demonstration in expanded view.</p>
+      </div>
+
+      <div class="bento-grid">
+        <article class="card card-wide" data-video="assets/videos/modelo-01.mp4" data-project="m1">
+          <div class="media-box">
+            <video class="portfolio-video" src="assets/videos/modelo-01.mp4" poster="assets/posters/modelo-01.jpg" muted loop playsinline webkit-playsinline preload="metadata"></video>
+            <span class="badge">WebGL / Three.js</span>
+          </div>
+          <div class="card-info">
+            <div>
+              <h3 data-i18n="m1_title">01 — Architecture & 3D Product</h3>
+              <p data-i18n="m1_card_desc">Interactive visualization with dynamic lighting and fluid 60fps navigation.</p>
+            </div>
+            <button class="expand-btn" type="button" data-i18n="expand_btn">Expand</button>
+          </div>
+        </article>
+
+        <article class="card" data-video="assets/videos/modelo-02.mp4" data-project="m2">
+          <div class="media-box">
+            <video class="portfolio-video" src="assets/videos/modelo-02.mp4" poster="assets/posters/modelo-02.jpg" muted loop playsinline webkit-playsinline preload="metadata"></video>
+            <span class="badge">UI / Motion</span>
+          </div>
+          <div class="card-info">
+            <div>
+              <h3 data-i18n="m2_title">02 — Minimalist Editorial</h3>
+              <p data-i18n="m2_card_desc">High-contrast typographic layout with GPU-accelerated transitions.</p>
+            </div>
+            <button class="expand-btn" type="button" data-i18n="expand_btn">Expand</button>
+          </div>
+        </article>
+
+        <article class="card" data-video="assets/videos/modelo-03.mp4" data-project="m3">
+          <div class="media-box">
+            <video class="portfolio-video" src="assets/videos/modelo-03.mp4" poster="assets/posters/modelo-03.jpg" muted loop playsinline webkit-playsinline preload="metadata"></video>
+            <span class="badge">Blender + WebGL</span>
+          </div>
+          <div class="card-info">
+            <div>
+              <h3 data-i18n="m3_title">03 — Industrial Showcase</h3>
+              <p data-i18n="m3_card_desc">Blender-exported assets optimized for mobile and Safari.</p>
+            </div>
+            <button class="expand-btn" type="button" data-i18n="expand_btn">Expand</button>
+          </div>
+        </article>
+
+        <article class="card card-wide" data-video="assets/videos/modelo-04.mp4" data-project="m4">
+          <div class="media-box">
+            <video class="portfolio-video" src="assets/videos/modelo-04.mp4" poster="assets/posters/modelo-04.jpg" muted loop playsinline webkit-playsinline preload="metadata"></video>
+            <span class="badge">Scroll 3D</span>
+          </div>
+          <div class="card-info">
+            <div>
+              <h3 data-i18n="m4_title">04 — Immersive Experience</h3>
+              <p data-i18n="m4_card_desc">Scroll-driven visual storytelling syncing 3D camera and clean UI.</p>
+            </div>
+            <button class="expand-btn" type="button" data-i18n="expand_btn">Expand</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- First Page Contact: WhatsApp Only -->
+    <section class="cta-section container">
+      <div class="cta-box">
+        <h2 data-i18n="cta_title">Interested in a custom model for your brand?</h2>
+        <p data-i18n="cta_sub">Message us directly on WhatsApp to discuss scope, timeline, and a tailored quote.</p>
+        <div class="hero-actions">
+          <a href="https://wa.me/5511948597225" target="_blank" rel="noopener noreferrer" class="btn-primary" data-i18n="cta_whatsapp">Chat on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="copyright" data-i18n="footer_copy">© 2026 Velura. All rights reserved.</p>
+      <div class="legal-links">
+        <a href="tecnologia.html" class="footer-link" data-i18n="nav_tech">Technology</a>
+        <a href="contato.html" class="footer-link" data-i18n="nav_contact">Contact</a>
+        <a href="termos.html" class="footer-link" data-i18n="footer_terms">Terms of Use</a>
+        <a href="privacidade.html" class="footer-link" data-i18n="footer_privacy">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Expanded Video Modal -->
+  <div id="videoModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content">
+      <button type="button" class="modal-close" data-close-modal aria-label="Close">✕</button>
+      <div class="modal-video-wrap">
+        <video id="modalVideo" controls playsinline webkit-playsinline muted loop></video>
+      </div>
+      <div class="modal-meta">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
